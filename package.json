@@ -1,6 +1,6 @@
 {
 	"name": "create-hefestos-app",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "HefestosJS CLI for initialize an application",
 	"main": "src/index.js",
 	"type": "module",
