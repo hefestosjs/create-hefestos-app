@@ -1,0 +1,5 @@
+# Application
+PORT=3000
+
+# Database
+DB_URL="file:./dev.db"

@@ -1,0 +1,13 @@
+# Application
+PORT=3000
+
+# CockroachDB Database
+DB_USER=<YOUR_DB_USER>
+DB_PASS=<YOUR_DB_PASS>
+DB_HOST=<YOUR_DB_HOST>
+DB_PORT=<YOUR_DB_PORT>
+DB_NAME=<YOUR_DB_NAME>
+DB_CLUSTER=<YOUR_DB_CLUSTER>  # Use if CockroachDB is configured with a specific cluster
+
+# CockroachDB Connection URL
+DB_URL=postgresql://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}?sslmode=verify-full&options=--cluster=${DB_CLUSTER}
